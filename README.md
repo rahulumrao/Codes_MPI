@@ -1,7 +1,7 @@
 # Check if you have MPI libraries avialable in your machine by running the following command :
 <pre> which mpif90 </pre>
 # It should return something like --
-<pre> /usr/local/bin/mpif90 <br />
+<pre> /usr/local/bin/mpif90 
 Or
 $path/mpif90
 </pre>
@@ -28,9 +28,10 @@ trapezoid_rule_MPI.F90  :- numerical Integration with Trapezoidal rule using MPI
 broadcast.F90		:- Numerical Integration with Trapezoidal rule using MPI_BCAST routines		<br />
 pi_MPI.F90		:- computes value of PI using dart algorithm					<br />
 </pre>
-# -----
+
 <pre>
 Type "mpirun -n $NCPUS ./your-executable.x" to run the program in parallel
-
+# --------------------------------------------------------------------------
 Written by : Rahul Verma (vrahul@iitk.ac.in)
+# --------------------------------------------------------------------------
 </pre>
