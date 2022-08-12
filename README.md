@@ -29,9 +29,9 @@ broadcast.F90		:- Numerical Integration with Trapezoidal rule using MPI_BCAST ro
 pi_MPI.F90		:- computes value of PI using dart algorithm					<br />
 </pre>
 
-<pre>
 Type "mpirun -n $NCPUS ./your-executable.x" to run the program in parallel
+<pre>
 # --------------------------------------------------------------------------
-Written by : Rahul Verma (vrahul@iitk.ac.in)
+#	    Written by : Rahul Verma (vrahul@iitk.ac.in)
 # --------------------------------------------------------------------------
 </pre>
