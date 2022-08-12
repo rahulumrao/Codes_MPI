@@ -16,7 +16,7 @@ sudo zypper install mpich      (OpenSUSE)		\\
 
 # Once done, then just type "make", this will compile the program and "make clean" to clean executables
 
-Makefile  		:- make file to compile all the FORTRAN programs				\\
+Makefile  		:- make file to compile all the FORTRAN programs \\
 hello.F90		:- hello world program with MPI							\\
 send_recv.F90		:- simple program just to check MPI_SEND/RECV routines				\\
 trapezoid_rule.F90	:- serial version of program for Numerical Integration with Trapezoidal rule	\\
